@@ -2,6 +2,7 @@
 import psycopg2
 from config import config
 #changes1
+#change2
 def getserverdetails(serverid):	
     """ Connect to the PostgreSQL Rahul database server """
     conn = None
