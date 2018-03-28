@@ -59,7 +59,7 @@ if row[9] == False:
 try:
  server = smtplib.SMTP('smtp.gmail.com', 587)
  server.starttls()
- server.login(fromaddr, "suite@jamsuite")
+ server.login(fromaddr, "xxxxxxxxxxx")
  text = msg.as_string()
  server.sendmail(fromaddr, toaddr, text)
  server.quit()
